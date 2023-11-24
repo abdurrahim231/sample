@@ -37,7 +37,7 @@ def take_user_input():
     value2 = float(input("Please enter the second value: "))
 
 
-    symbol = input("Please enter the symbol(+,-,*,/) to execute: ")
+    symbol = input("Please choice your symbol(+,-,*,/) to execute: ")
 
     result = chech_symbol(symbol,value1,value2)
 
